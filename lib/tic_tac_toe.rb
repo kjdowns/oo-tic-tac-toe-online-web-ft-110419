@@ -115,8 +115,9 @@ class TicTacToe
       puts "Cat's Game!"
     end
 =======
-    self.board[index].include?("X") || self..board[index].include?("O") ? true : false 
->>>>>>> 779341fbbe3d10399f3111d9168c0421c3c91366
+    self.board
+    [index].include?("X") || self..board[index].include?("O") ? true : false 
+
   end
   
 end
