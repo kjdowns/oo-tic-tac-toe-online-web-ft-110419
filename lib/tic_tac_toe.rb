@@ -36,7 +36,6 @@ class TicTacToe
   end
   
   def position_taken?(index)
-<<<<<<< HEAD
     self.board[index].include?("X") || self.board[index].include?("O") ? true : false 
   end
   
@@ -114,10 +113,6 @@ class TicTacToe
     elsif draw?
       puts "Cat's Game!"
     end
-=======
-    self.board
-    [index].include?("X") || self..board[index].include?("O") ? true : false 
-
   end
   
 end
